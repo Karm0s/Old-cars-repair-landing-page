@@ -1,0 +1,39 @@
+body{
+    font-family: 'Merriweather';
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/car1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.row-height{
+    height: 100vh;
+}
+
+main{
+    background-color: #fff;
+}
+
+.image-main{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/car2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media (max-width: 576px){
+    .image-main{
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/car2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+.footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/car3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact-info{
+    margin-top: 10%;
+}
