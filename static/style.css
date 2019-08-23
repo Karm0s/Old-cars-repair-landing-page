@@ -28,10 +28,9 @@ main{
     }
 }
 
-.footer{
+.footer-image{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/car3.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
 }
 
 .contact-info{
